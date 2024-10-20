@@ -21,3 +21,8 @@ The system works by:
 ├── main.py                   # Main script to run the system
 ├── requirements.txt          # Project dependencies
 └── README.md                 # Project documentation
+
+
+#Example Usage
+Enter your query: how are glacier caves formed?
+Generated Response: Glacier caves are formed by melting and freezing processes inside glaciers.
