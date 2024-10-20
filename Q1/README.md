@@ -11,7 +11,7 @@ The system works by:
 3. **Retrieving Relevant Documents**: Given a user query, the system retrieves the top 3 most relevant documents from the indexed dataset.
 4. **Generating a Response**: The relevant documents are combined, and a `T5` model generates a natural language response based on the combined text.
 
-##Example Usage
+## Example Usage
 
 Enter your query: how are glacier caves formed?
 Generated Response: Glacier caves are formed by melting and freezing processes inside glaciers.
