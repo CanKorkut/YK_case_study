@@ -1,0 +1,212 @@
+[
+  {
+    "id": 1,
+    "conversation": [
+      {
+        "customer": "Merhaba, kredi kartımın limitini artırmak istiyorum."
+      },
+      {
+        "agent": "Tabii, kart bilgilerinizle birlikte limit artış talebinizi alalım."
+      },
+      {
+        "customer": "Kartımın numarası 1234 ile başlıyor. Şu anki limitim 5000 TL, bunu 10000 TL yapmak istiyorum."
+      },
+      {
+        "agent": "Talebinizi aldım, işleminiz değerlendirmeye alındı. Sonuç SMS ile bildirilecektir."
+      },
+      {
+        "customer": "Teşekkür ederim."
+      }
+    ],
+    "intent": "kredi kartı limit artırma"
+  },
+  {
+    "id": 2,
+    "conversation": [
+      {
+        "customer": "Kredi başvurusu yapmak istiyorum."
+      },
+      {
+        "agent": "Tabii, ne kadar krediye ihtiyacınız var?"
+      },
+      {
+        "customer": "50.000 TL civarında bir krediye ihtiyacım var."
+      },
+      {
+        "agent": "Başvurunuzu işleme alıyorum. Gelir bilgilerinizi de alabilir miyim?"
+      },
+      {
+        "customer": "Gelirim aylık 6000 TL."
+      }
+    ],
+    "intent": "kredi başvurusu"
+  },
+  {
+    "id": 3,
+    "conversation": [
+      {
+        "customer": "Kartımı iptal ettirmek istiyorum."
+      },
+      {
+        "agent": "Kartınızı neden iptal etmek istiyorsunuz? Yardımcı olabileceğimiz bir sorun var mı?"
+      },
+      {
+        "customer": "Artık bu karta ihtiyacım yok, başka bir kart kullanıyorum."
+      },
+      {
+        "agent": "Anladım. Kart iptali işleminizi başlattım. İptal tamamlandığında SMS ile bilgilendirileceksiniz."
+      },
+      {
+        "customer": "Teşekkürler."
+      }
+    ],
+    "intent": "kredi kartı iptali"
+  },
+  {
+    "id": 4,
+    "conversation": [
+      {
+        "customer": "Hesap ekstremi e-posta yerine posta ile almak istiyorum."
+      },
+      {
+        "agent": "Tabii, iletişim bilgilerinizi güncellememiz gerekecek. Adresinizi alabilir miyim?"
+      },
+      {
+        "customer": "Tabii, adresim: İstanbul, Beşiktaş, Nişantaşı Mahallesi..."
+      },
+      {
+        "agent": "Bilgilerinizi güncelledim. Bundan sonra ekstreleriniz posta yoluyla gönderilecek."
+      },
+      {
+        "customer": "Teşekkür ederim."
+      }
+    ],
+    "intent": "hesap ekstresi talebi"
+  },
+  {
+    "id": 5,
+    "conversation": [
+      {
+        "customer": "Yeni bir banka kartı başvurusu yapmak istiyorum."
+      },
+      {
+        "agent": "Tabii, hangi kart türüne başvurmak istiyorsunuz? Kredi kartı mı, banka kartı mı?"
+      },
+      {
+        "customer": "Banka kartı almak istiyorum."
+      },
+      {
+        "agent": "Başvurunuzu aldım, işleminiz onaylandığında bilgilendirileceksiniz."
+      },
+      {
+        "customer": "Teşekkür ederim."
+      }
+    ],
+    "intent": "yeni banka kartı başvurusu"
+  },
+  {
+    "id": 6,
+    "conversation": [
+      {
+        "customer": "Kredi kartımın son ödeme tarihini öğrenebilir miyim?"
+      },
+      {
+        "agent": "Tabii, kartınızın son ödeme tarihi 25 Ekim 2024."
+      },
+      {
+        "customer": "Teşekkür ederim."
+      },
+      {
+        "agent": "Başka bir konuda yardımcı olabilir miyim?"
+      },
+      {
+        "customer": "Hayır, teşekkürler."
+      }
+    ],
+    "intent": "kredi kartı ödeme tarihi öğrenme"
+  },
+  {
+    "id": 7,
+    "conversation": [
+      {
+        "customer": "Hesap bakiyemi öğrenmek istiyorum."
+      },
+      {
+        "agent": "Tabii, hesabınızda 3.250 TL bulunuyor."
+      },
+      {
+        "customer": "Teşekkür ederim."
+      },
+      {
+        "agent": "Rica ederim, başka bir konuda yardımcı olabilir miyim?"
+      },
+      {
+        "customer": "Hayır, teşekkürler."
+      }
+    ],
+    "intent": "hesap bakiyesi öğrenme"
+  },
+  {
+    "id": 8,
+    "conversation": [
+      {
+        "customer": "Kredi kartımda bir yurt dışı harcaması görüyorum, bu bana ait değil."
+      },
+      {
+        "agent": "Üzgünüz, hemen bir itiraz kaydı oluşturalım. Harcama hangi tarihte yapılmış?"
+      },
+      {
+        "customer": "Geçen hafta, 12 Ekim'de yapılmış."
+      },
+      {
+        "agent": "İtiraz işleminiz başlatıldı, inceleme tamamlandığında size bilgi verilecek."
+      },
+      {
+        "customer": "Teşekkürler."
+      }
+    ],
+    "intent": "kredi kartı harcama itirazı"
+  },
+  {
+    "id": 9,
+    "conversation": [
+      {
+        "customer": "Banka hesabımın şifresini unuttum, nasıl yenileyebilirim?"
+      },
+      {
+        "agent": "Şifrenizi online bankacılık üzerinden veya müşteri hizmetlerimiz aracılığıyla yenileyebilirsiniz."
+      },
+      {
+        "customer": "Telefon bankacılığıyla nasıl yenileyebilirim?"
+      },
+      {
+        "agent": "Müşteri hizmetlerimizle bağlantı kurarak kimlik doğrulaması yaptıktan sonra yeni bir şifre belirleyebilirsiniz."
+      },
+      {
+        "customer": "Anladım, teşekkür ederim."
+      }
+    ],
+    "intent": "hesap şifresi yenileme"
+  },
+  {
+    "id": 10,
+    "conversation": [
+      {
+        "customer": "ATM'de para yatırırken hata aldım, ne yapmalıyım?"
+      },
+      {
+        "agent": "Hemen kontrol edelim. Yatırmayı denediğiniz tutar ne kadardı?"
+      },
+      {
+        "customer": "1000 TL."
+      },
+      {
+        "agent": "İşleminiz kontrol ediliyor, kısa süre içinde size bilgi vereceğiz."
+      },
+      {
+        "customer": "Tamam, teşekkür ederim."
+      }
+    ],
+    "intent": "ATM işlem hatası"
+  }
+]
