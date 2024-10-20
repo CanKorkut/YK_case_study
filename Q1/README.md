@@ -14,6 +14,7 @@ The system works by:
 ## Example Usage
 
 Enter your query: how are glacier caves formed?
+
 Generated Response: Glacier caves are formed by melting and freezing processes inside glaciers.
 
 ### Directory Structure
