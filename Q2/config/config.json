@@ -1,0 +1,15 @@
+{
+    "model_name": "facebook/bart-large-mnli",
+    "candidate_labels": [
+        "kredi kartı limit artırma", 
+        "kredi başvurusu", 
+        "kredi kartı iptali", 
+        "hesap ekstresi talebi", 
+        "yeni banka kartı başvurusu", 
+        "kredi kartı ödeme tarihi öğrenme", 
+        "hesap bakiyesi öğrenme", 
+        "kredi kartı harcama itirazı", 
+        "hesap şifresi yenileme", 
+        "ATM işlem hatası"
+    ]
+}
