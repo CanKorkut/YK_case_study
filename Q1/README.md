@@ -1,4 +1,4 @@
-# QA Retrieval System with Sentence Transformers and T5
+# QA Retrieval System with Sentence Transformers (RAG) and T5
 
 This project demonstrates a Question Answering (QA) system using Sentence Transformers to retrieve relevant documents from a dataset and a T5 model to generate natural language answers based on those retrieved documents.
 
@@ -13,4 +13,11 @@ The system works by:
 
 ### Directory Structure
 
-├── src │ ├── create_dataset.py # Creates embeddings and builds FAISS index │ ├── init_model.py # Loads the T5 model and tokenizer │ ├── model_inference.py # Handles document retrieval and response generation ├── main.py # Main script to run the system ├── data # Directory for storing datasets (if necessary) ├── config # Directory for configuration files (optional) ├── resources # Directory for external models (optional) ├── requirements.txt # Project dependencies └── README.md # Project documentation
+```plaintext
+
+├── create_dataset.py     # Creates embeddings and builds FAISS index
+├── init_model.py         # Loads the T5 model and tokenizer
+├── model_inference.py    # Handles document retrieval and response generation
+├── main.py                   # Main script to run the system
+├── requirements.txt          # Project dependencies
+└── README.md                 # Project documentation
